@@ -121,13 +121,13 @@ const [options, setOptions] = useState([
             
            <ul style={{width:'100%',maxHeight:'410px',overflow:'scroll',zIndex:10}}>
              <li className='cursorPointerLi' onClick={()=>{
-               setChoiseChannel('http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8?')
+               setChoiseChannel('https://firebasestorage.googleapis.com/v0/b/kinodb-1cc81.appspot.com/o/video%2FPeliculas%2Fc7627Ba5Dega5332cD6%2Fmovie.mp4?alt=media&token=2cb6e188-cb1e-4c43-93ef-3144770cd0b4')
              }}>
                <Row><Col  xs lg="1"><span>52</span></Col>
                     <Col sm lh='2'><span>
                      <ReactPlayer        
                          className='react-player'
-                         url='http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8?'
+                         url='https://firebasestorage.googleapis.com/v0/b/kinodb-1cc81.appspot.com/o/video%2FPeliculas%2Fc7627Ba5Dega5332cD6%2Fmovie.mp4?alt=media&token=2cb6e188-cb1e-4c43-93ef-3144770cd0b4'
                          width='100px'
                          height='100%'
                          muted={true}
